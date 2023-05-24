@@ -1,0 +1,64 @@
+doctype html 
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title TrilleEats
+    link(rel='stylesheet' href='/stylesheets/style.css')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap' rel='stylesheet')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css')
+  body
+    .header
+      .container
+        .navbar
+          .logo
+            p
+              a(href='/')
+                img(src='/images/Images/restaurantlogo.png' width='125px')
+            a(href='/')
+          a(href='/')
+          nav
+            a(href='/')
+            ul#MenuItems
+              a(href='/')
+              li
+                a(href='/')
+                a(href='/') Hem
+              li
+                a(href='/products') Produkter
+              li
+                a(href='/about') Om företaget
+              li
+                a(href='/contacts') Kontakt
+              li
+                a(href='/account') Konto
+          img(src='/images/Images/cart.png' width='30px' height='30px')
+          img.menu-icon(src='/images/Images/menu.png')
+        .product-container
+          h2.title Chicken Burger
+          .row
+            .col-5
+              img(src='/images/Images/chickenburger.png')
+              h4 35 KR
+              a.btn(href='') Lägg i varukorgen →
+      // ------ Footer ------
+      .footer
+        .container
+          .row
+            .footer-col-1
+              h3 Ladda ner vår app
+              p Tillgänglig på Android och IOS
+              .app-logo
+                img(src='/images/Images/app-store.png')
+                img(src='/images/Images/play-store.png')
+            .footer-col-2
+              img(src='/images/Images/restaurantlogo.png')
+              p Vårt mål är att leverera maten du vill ha, till ditt hem.
+            .footer-col-3
+              h3 Följ oss
+              ul
+                li Twitter
+                li Facebook
+                li Youtube
+                li Instagram
+          hr
+          p.copyright Copyright 2023 - Tristan Hultén
